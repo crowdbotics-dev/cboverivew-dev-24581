@@ -1,4 +1,3 @@
-import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { TextInput } from "react-native";
 import React from "react";
@@ -66,16 +65,16 @@ const Untitled8 = ({
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }} placeholder="YYYY-MM-DD"></TextInput><Pressable onPress={() => navigation.navigate("Untitled9")}><View style={{
-        left: 29,
-        top: 303,
-        position: "absolute",
-        height: 25,
-        width: 140,
-        backgroundColor: "#000000",
-        borderRadius: 8,
-        color: "#777777"
-      }}></View></Pressable><Text style={{
+    }} placeholder="YYYY-MM-DD"></TextInput><View style={{
+      left: 21,
+      top: 296,
+      position: "absolute",
+      height: 25,
+      width: 140,
+      backgroundColor: "#000000",
+      borderRadius: 8,
+      color: "#777777"
+    }}></View><Text style={{
       position: "absolute",
       left: 36,
       top: 309,
