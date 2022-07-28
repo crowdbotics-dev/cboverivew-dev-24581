@@ -3,7 +3,7 @@ import { TextInput } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
-const Untitled8 = ({
+const Profile = ({
   navigation
 }) => {
   return <View style={{
@@ -88,4 +88,4 @@ const Untitled8 = ({
     }}>Save</Text></View>;
 };
 
-export default Untitled8;
+export default Profile;
