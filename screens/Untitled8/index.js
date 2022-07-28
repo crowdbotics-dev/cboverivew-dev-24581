@@ -66,8 +66,8 @@ const Profile = ({
       width: 150,
       height: 30
     }} placeholder="YYYY-MM-DD" showSoftInputOnFocus={false}></TextInput><View style={{
-      left: 28,
-      top: 304,
+      left: 27,
+      top: 303,
       position: "absolute",
       height: 25,
       width: 140,
