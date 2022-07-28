@@ -7,10 +7,10 @@ const Untitled8 = ({
   navigation
 }) => {
   return <View style={{
-    backgroundColor: '#f0f0f1',
+    backgroundColor: "#fafafa",
     padding: 10,
-    position: 'relative',
-    height: '100%'
+    position: "relative",
+    height: "100%"
   }}>
       <View style={{
       left: 0,
@@ -65,9 +65,9 @@ const Untitled8 = ({
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }} placeholder="YYYY-MM-DD"></TextInput><View style={{
-      left: 21,
-      top: 296,
+    }} placeholder="YYYY-MM-DD" showSoftInputOnFocus={false}></TextInput><View style={{
+      left: 28,
+      top: 304,
       position: "absolute",
       height: 25,
       width: 140,
